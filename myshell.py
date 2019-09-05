@@ -1,5 +1,4 @@
 #Name: Luke Hebblethwaite
-#Student Number: 17425212
 #Python version used: 3.7.1
 
 import cmd, sys, os, getpass, subprocess
