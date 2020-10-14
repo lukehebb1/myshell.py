@@ -12,21 +12,21 @@ cd command: This command allows you change your current working directory. 'cd <
 directory to <pathname>. Typing 'cd' will print your current working directory.'cd ..' will move your up or 'back' on directory.  
 So, if you are /usr/bin/tmp, 'cd ..' moves you to /usr/bin. This command supports i/o redirection.
 
-clr command: This command clears the screen.
+**clr command:** This command clears the screen.
 
-dir command: Typing 'dir' will list all files in your current working directory. Typing 'dir <pathname>' will list all files
+**dir command:** Typing 'dir' will list all files in your current working directory. Typing 'dir <pathname>' will list all files
 in <pathname>. This command supports i/o redirection. 
 
-environ command: This command displays all the environment strings. This command supports i/o redirection. 
+**environ command:** This command displays all the environment strings. This command supports i/o redirection. 
 
-echo command: This command prints to the terminal. Typing 'echo <string>' will print <string> to the terminal. This command 
+**echo command:**** This command prints to the terminal. Typing 'echo <string>' will print <string> to the terminal. This command 
 supports i/o redirection.
 
-help command: Typing 'help <command>' will display help on <command>.
+**help command:** Typing 'help <command>' will display help on <command>.
 
-pause command: This command pauses the terminal until the Enter key is pressed. 
+**pause command:** This command pauses the terminal until the Enter key is pressed. 
 
-quit command: This command terminates the shell. 
+**quit command:** This command terminates the shell. 
 helpmore command: This command prints this manual. NOTE: This command will not work unless 'readme.txt' and 'myshell.py' must 
 be in the same folder.
 
