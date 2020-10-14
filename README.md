@@ -27,8 +27,8 @@ supports i/o redirection.
 **pause command:** This command pauses the terminal until the Enter key is pressed. 
 
 **quit command:** This command terminates the shell. 
-helpmore command: This command prints this manual. NOTE: This command will not work unless 'readme.txt' and 'myshell.py' must 
-be in the same folder.
+helpmore command: This command prints this manual. 
+NOTE: This command will not work unless 'readme.txt' and 'myshell.py' are in the same folder.
 
 **ENVIRONMENT CONCEPTS:**
 
