@@ -1,9 +1,9 @@
-USER MANUAL FOR THE SHELL:
+**USER MANUAL FOR THE SHELL:**
 
 To run the shell, go to the location of the shell by typing 'cd <pathname>', once in the same directory of myshell.py, type
 'python3 myshell.py' to run the shell.
 
-OPERATION AND COMMANDS OF THE SHELL:
+**OPERATION AND COMMANDS OF THE SHELL:**
 
 This shell can do many things. It supports a variety of commands and background execution of programs. This manual will outline
 how to use every component of this shell. 
@@ -30,13 +30,13 @@ quit command: This command terminates the shell.
 helpmore command: This command prints this manual. NOTE: This command will not work unless 'readme.txt' and 'myshell.py' must 
 be in the same folder.
 
-ENVIRONMENT CONCEPTS:
+**ENVIRONMENT CONCEPTS:**
 
 When a program is invoked it is given an array of strings called the environment. This is a list of name-value pairs, of 
 the form 'name=value'. Typing 'environ' will list all environment strings. When Bash invokes an external command, the variable 
 '$_' is set to the full pathname of the command and passed to that command in its environment.
 
-I/O REDIRECTION:
+**I/O REDIRECTION:**
 
 Input output redirection is an extremely useful feature. It allows you to take input from a batch file and also allows you to 
 put the output of different commands into batch files. 
@@ -49,7 +49,7 @@ take input from batch files. For example, input.txt contains a pathname. Let's c
 type 'dir < input.txt' the shell will list the files in <pathname>. 'dir < input.txt' is the exact same as doing 
 'dir <pathname>' in this case.
 
-BACKGROUND EXECUTION:
+**BACKGROUND EXECUTION:**
 
 The shell also supports background execution of programs. A background process executes independently of the shell, leaving the 
 terminal free for other work. To run a process in the background, include an & (an ampersand) at the end of the command you use 
