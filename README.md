@@ -19,7 +19,7 @@ in <pathname>. This command supports i/o redirection.
 
 **environ command:** This command displays all the environment strings. This command supports i/o redirection. 
 
-**echo command:**** This command prints to the terminal. Typing 'echo <string>' will print <string> to the terminal. This command 
+**echo command:** This command prints to the terminal. Typing 'echo <string>' will print <string> to the terminal. This command 
 supports i/o redirection.
 
 **help command:** Typing 'help <command>' will display help on <command>.
