@@ -8,7 +8,7 @@ To run the shell, go to the location of the shell by typing 'cd <pathname>', onc
 This shell can do many things. It supports a variety of commands and background execution of programs. This manual will outline
 how to use every component of this shell. 
 
-cd command: This command allows you change your current working directory. 'cd <pathname>' will change your current working 
+**cd command:** This command allows you change your current working directory. 'cd <pathname>' will change your current working 
 directory to <pathname>. Typing 'cd' will print your current working directory.'cd ..' will move your up or 'back' on directory.  
 So, if you are /usr/bin/tmp, 'cd ..' moves you to /usr/bin. This command supports i/o redirection.
 
